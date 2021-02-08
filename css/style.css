@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Press Start 2P', cursive;
+    /*background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/
+    /*background-image: linear-gradient(43deg, #f092c7 0%, #f0e1c2 20%, #f0aad2 40%, #97f092 60%, #9ebdf0 100%);*/
+    background-image: linear-gradient(43deg, #fa6ec0 0%, #d862de 20%, #cd78f5 40%, #9562de 60%, #826efa 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+.navbar > ul > li {
+    display: inline-block;
+}
+.navbar > ul > li > a {
+    background-color: #ea69cd;
+    color: white;
+}
+.navbar > ul > li > a:hover {
+    color: #ea69cd
+}
+.nes-btn::after {
+    box-shadow: inset -4px -4px #ffffff33 !important;
+}
+section {
+    padding: 40px 0 40px 0;
+}
